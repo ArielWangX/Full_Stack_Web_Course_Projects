@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,12 +17,9 @@
         <!-- Information Section -->
         <!-- Basic Info -->
 
-        <div class="basicInfo">
-            <ul>
-                <li>
-                    <h2>Your basic info</h2>
-                </li>
-            </ul>
+        <fieldset>
+            <legend>Your basic info</legend>
+
             <label for="fName">First Name:</label><br />
             <input type="text" id="fName" name="firstName" autocapitalize="off" /><br />
 
@@ -36,15 +34,12 @@
 
             <label for="password">Password:</label><br />
             <input type="password" id="password" name="password" autocapitalize="off" />
-        </div>
+        </fieldset>
 
         <!-- Other Details -->
-        <div class="otherDetails">
-            <ul>
-                <li>
-                    <h2>Other details</h2>
-                </li>
-            </ul>
+        <fieldset>
+            <legend>Other details</legend>
+
             <label>Birth Date:</label><br />
             <input type="date" name="birthDate" autocapitalize="off" /><br />
 
@@ -52,9 +47,9 @@
             <input type="radio" name="gender" value="male" /><label>Male</label><br />
             <input type="radio" name="gender" value="female" /><label>Female</label><br />
             <input type="radio" name="gender" value="other" /><label>Other</label><br />
-        </div>
+        </fieldset>
 
-        <div class="country">
+        <fieldset>
             <label>Country:</label><br />
             <select>
                 <option value="China">China</option>
@@ -62,14 +57,14 @@
                 <option value="United Kingdom">United Kingdom</option>
                 <option value="Turkey">Turkey</option>
             </select>
-        </div>
+        </fieldset>
 
         <!-- Sign Up -->
-        <div name="signUp">
+        <fieldset>
             <input type="checkbox" id="acceptT&C" name="acceptT&C" required />
             <lable for="acceptT&C">I'm accepting Terms and Conditions</lable><br />
             <input type="submit" value="Sign Up" />
-        </div>
+        </fieldset>
     </form>
 </body>
 
