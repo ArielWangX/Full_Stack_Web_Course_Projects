@@ -41,3 +41,38 @@ legend::before {
     display: inline-block;
     font-size: 14px;
 }
+
+input, .textInput {
+    box-sizing: border-box;
+}
+
+.textInput, select {
+    background: rgba(255, 255, 255, 0.1);
+    background-color: #e8eeef;
+    margin: 0px 0px 30px 0px;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #8a97a0;
+    outline: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+}
+
+button {
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    background-color: #4BC970;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-style: normal;
+}
