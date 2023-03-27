@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form action="xxx.php" method="post">
+        <!-- Title -->
+        <h1>Sign Up</h1>
+
+        <!-- Information Section -->
+        <!-- Basic Info -->
+
+        <div class="basicInfo">
+            <ul>
+                <li>
+                    <h2>Your basic info</h2>
+                </li>
+            </ul>
+            <label for="fName">First Name:</label><br />
+            <input type="text" id="fName" name="firstName" autocapitalize="off" /><br />
+
+            <label for="lName">Last Name:</label><br />
+            <input type="text" id="lName" name="lastName" autocapitalize="off" /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" autocapitalize="off" /><br />
+
+            <label for="username">Username:</label><br />
+            <input type="text" id="username" name="username" autocapitalize="off" /><br />
+
+            <label for="password">Password:</label><br />
+            <input type="password" id="password" name="password" autocapitalize="off" />
+        </div>
+
+        <!-- Other Details -->
+        <div class="otherDetails">
+            <ul>
+                <li>
+                    <h2>Other details</h2>
+                </li>
+            </ul>
+            <label>Birth Date:</label><br />
+            <input type="date" name="birthDate" autocapitalize="off" /><br />
+
+            <label>Gender:</label><br />
+            <input type="radio" name="gender" value="male" /><label>Male</label><br />
+            <input type="radio" name="gender" value="female" /><label>Female</label><br />
+            <input type="radio" name="gender" value="other" /><label>Other</label><br />
+        </div>
+
+        <div class="country">
+            <label>Country:</label><br />
+            <select>
+                <option value="China">China</option>
+                <option value="United States">United States</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+        </div>
+
+        <!-- Sign Up -->
+        <div name="signUp">
+            <input type="checkbox" id="acceptT&C" name="acceptT&C" required />
+            <lable for="acceptT&C">I'm accepting Terms and Conditions</lable><br />
+            <input type="submit" value="Sign Up" />
+        </div>
+    </form>
+</body>
+
+</html>
