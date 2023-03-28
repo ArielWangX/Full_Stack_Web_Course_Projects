@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="form-center">
-        <form action="xxx.php" method="post">
+        <form action="xxx.php" method="post" name="registration">
             <!-- Title -->
             <h1>Sign Up</h1>
 
@@ -22,27 +22,27 @@
                 <legend>Your basic info</legend>
 
                 <label for="fName">First Name:</label>
-                <input type="text" class="textInput" id="fName" name="firstName" autocomplete="off" />
+                <input type="text" class="textInput" id="fName" name="user_firstName" autocomplete="off" />
 
                 <label for="lName">Last Name:</label>
-                <input type="text" class="textInput" id="lName" name="lastName" autocomplete="off" />
+                <input type="text" class="textInput" id="lName" name="user_lastName" autocomplete="off" />
 
                 <label for="email">Email:</label>
-                <input type="email" class="textInput" id="email" name="email" autocomplete="off" />
+                <input type="email" class="textInput" id="email" name="user_email" autocomplete="off" />
 
                 <label for="username">Username:</label>
-                <input type="text" class="textInput" id="username" name="username" autocomplete="off" />
+                <input type="text" class="textInput" id="username" name="user_username" autocomplete="off" />
 
                 <label for="password">Password:</label>
-                <input type="password" class="textInput" id="password" name="password" autocomplete="off" />
+                <input type="password" class="textInput" id="password" name="user_password" autocomplete="off" />
             </fieldset>
 
             <!-- Other Details -->
             <fieldset>
                 <legend>Other details</legend>
 
-                <label>Birth Date:</label>
-                <input type="date" class="textInput" name="birthDate" autocomplete="off" />
+                <label for="birthday">Birth Date:</label>
+                <input type="date" class="textInput" id="birthday" name="birthDate" autocomplete="off" />
 
                 <label>Gender:</label><br />
                 <input type="radio" name="gender" value="male" /><label>Male</label><br />
@@ -62,8 +62,10 @@
 
             <!-- Sign Up -->
             <fieldset>
-                <input type="checkbox" id="acceptT&C" name="acceptT&C" required />
-                <lable for="acceptT&C">I'm accepting Terms and Conditions</lable>
+                <div>
+                    <input type="checkbox" id="acceptT&C" name="acceptT&C" value="acceptingTerms&Conditions" required />
+                    <lable for="acceptT&C">I'm accepting Terms and Conditions</lable>
+                </div>
                 <button type="submit">Sign Up</button>
             </fieldset>
         </form>

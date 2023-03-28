@@ -91,3 +91,9 @@ button {
     border: none;
     font-style: normal;
 }
+
+@media screen and (max-width: 580px) {
+    form {
+        width: 300px;
+    }
+}
