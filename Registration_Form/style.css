@@ -3,6 +3,11 @@ body {
     color: #384047;
 }
 
+.form-center {
+    display: flex;
+    justify-content: center;
+}
+
 form {
     background: #F4F7F8;
     max-width: 580px;
