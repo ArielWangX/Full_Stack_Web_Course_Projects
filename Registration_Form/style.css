@@ -48,7 +48,8 @@ legend::before {
 }
 
 input,
-.textInput {
+.textInput,
+select {
     box-sizing: border-box;
 }
 
