@@ -151,3 +151,12 @@ ul li {
     color: var(--primary-color-white);
     border: none;
 }
+
+@media screen and (max-width: 900px) {
+    .content__img {
+        display: none;
+    }
+    .card__header {
+        font-size: 10px;
+    }
+}
