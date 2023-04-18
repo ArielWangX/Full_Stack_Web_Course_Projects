@@ -8,6 +8,8 @@ To store the full-stack web bootcamp's projects.
   - Deployed on [GitHub Page - Flex Responsive Cards](https://arielwangx.github.io/Flex_Responsive_Cards/)
 - Grid Responsive Cards (html & css)
   - Deployed on [GitHub Page - Grid Responsive Cards](https://arielwangx.github.io/Grid_Responsive_Cards/)
+- Personal Portfolio Card (html & css)
+  - Deployed on [GitHub Page - Personal Portfolio Card](https://arielwangx.github.io/Personal_Portfolio_Card/)
 <br /><br />
 
 ### Projects:
@@ -28,4 +30,14 @@ https://user-images.githubusercontent.com/109891752/229031007-1f2d8c83-35c9-4f17
     - Checkout source code on ```main``` branch ```Grid_Responsive_Cards``` folder.
 
 https://user-images.githubusercontent.com/109891752/232458732-edda0aa5-3193-4f1e-ad0d-b3e13d1f3f0b.mp4
+
+<br /><br />
+
+4. Personal Portfolio Card (html & css)
+    - Checkout source code on ```main``` branch ```Personal_Portfolio_Card``` folder.
+    
+https://user-images.githubusercontent.com/109891752/232681587-46c152d8-b0eb-47da-9eb0-25147ea66ab5.mp4
+
+
+   
 
